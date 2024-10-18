@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Registration Form</title>
+        <title>Applicaton Form</title>
         <link rel="stylesheet" href="Form_1.css">
     </head>
     <body>
@@ -9,9 +9,46 @@
             <h1>Job Application Form Widget</h1>
         </header>
         <form class="login-form">
-                <input type="text" placeholder="First name">
-                <input type="text" placeholder="Last name">
+            <div class="inputs">
+                <input type="text" placeholder=" First name" class="input1">
+                <input type="text" placeholder="  Last name" class="input2">
+            </div>
+            <div class="inputs1">
+                <input type="email" placeholder=" Email" class="input3">
+                <input type="tel" placeholder=" Phone" class="input4">
+            </div>
+            <div class="options">
+                <select id="Country" name="Country">
+                  <option>Select Country</option>
+                  <option value="Argentina">Argentina</option>
+                  <option value="Portugal">Portual</option>
+                  <option value="Nigeria">Nigeria</option>
+                  <option value="Turkey">Turkey</option>
+                  <option value="Poland">Poland</option>
+                  <option value="Canada">Canada</option>
+                </select>
+                <input type="text" placeholder=" City">
+                <input type="Address" placeholder=" Address">
+                <select id="Desired_Position" name="Desired_Position">
+                    <option>Choose Desired Position</option>
+                    <option value="HR">HR</option>
+                    <option value="Data_Analyst">Data Analyst</option>
+                    <option value="Project_Manager">Project Manager</option>
+                    <option value="Accountant">Accountant</option>
+                    <option value="Admin">Admin</option>
+                    <option value="Sales_Rep">Sales Rep</option>
+                </select>
+                <textarea id="message" name="message" rows="4" placeholder=" Additional Info"></textarea>
+             <div class="cv">
+                <input type="text" placeholder=" Add your CV">
+                <button>Browse</button>
+             </div>
+             <p>Only: pdf / doc Size: lessthan 1Mb</p>
+            </div>
+            <div class="click">
+                <button class="button1">Reset</button>
+                <button class="button2">Send</button>
+            </div>
         </form>
-
     </body>
 </html>
