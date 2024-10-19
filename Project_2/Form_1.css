@@ -121,6 +121,10 @@ header h1{
     color: white;
     background-color: rgb(255, 167, 4);
 }
+.cv button:hover{
+    background-color: rgb(202, 134, 6);
+    cursor: pointer; 
+}
 .options p{
     background-color: white;
     font-family: Arial;
@@ -144,6 +148,10 @@ header h1{
     width:80px;
     height:35px;
 }
+.button1:hover{
+    background-color: rgb(202, 134, 6);
+    cursor: pointer;
+}
 .button2{
     margin-top: 20px;
     background-color: rgb(255, 167, 4);
@@ -151,6 +159,10 @@ header h1{
     border: none;
     width:80px;
     height:35px;
+}
+.button2:hover{
+    background-color: rgb(202, 134, 6);
+    cursor: pointer;
 }
 footer{
     display: flex;
