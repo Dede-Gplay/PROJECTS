@@ -1,0 +1,56 @@
+.navbarcolor{
+    background-color: rgb(255, 215, 0)!important;
+}
+.navtext{
+    font-weight: bold;
+    
+}
+.btn:hover{
+    color: rgb(255, 215, 0)!important;
+
+}
+#hero{
+    background: linear-gradient(rgba(0 0 0 0));
+    background-image: url(/Lambano_Project/Images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heroclick{
+    display: flex;
+    justify-content: center;
+}
+.herocolor{
+    color:rgb(255, 215, 0)!important;
+}
+.but{
+    background-color: rgb(255, 215, 0)!important;
+    color:black;
+    border-color: yellow;
+    width: 150px;
+    border-radius: 75px!important;
+    transition: all 0.3s!important;
+    position: relative!important;
+    overflow: hidden!important;
+    z-index: 1!important;
+}
+.but:hover{
+    background-color: black!important;
+    color:rgb(255, 215, 0)!important;
+}
+.but::after{
+    content: ""!important;
+    position: absolute!important;
+    background-color: black!important;
+    z-index: -1!important;
+    width: 150px!important;
+    border-radius: 75px!important;
+    transition: 0.3s ease all!important;
+    transform: scale(0, 1)!important;
+    transform-origin: bottom left!important;
+    transition: transform 500ms cubic-bezier(0.86, 0, 0.07, 1)!important;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1)!important;
+}
+.but:hover::after{
+    transform: scale(1, 1)!important;
+    transform-origin: top left!important;
+}
