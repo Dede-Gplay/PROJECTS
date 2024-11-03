@@ -10,6 +10,8 @@
     color: black!important;
     position: relative;
 }
+
+
 .nav-link2::after{
     content: "";
     opacity: 0;
@@ -33,7 +35,6 @@
     background-position: center;
     background-size: cover;
     animation: transitionIn 0.9s!important;
-    
 }
 .heroclick{
     display: flex;
@@ -79,6 +80,38 @@
         opacity:1;
         transform:translateX(0)
     }
+}
+/*About*/
+.About{
+    background-color: black;
+}
+.card{
+ background-color: HSL(35, 62%, 63%)!important;
+    
+}
+/* section */
+.section-title{
+    margin-bottom: 60px;
+}
+.section .line{
+    width:60px!important;
+    height: 40px!important;
+    background-color: HSL(35, 62%, 63%)!important;
+    margin: 16px auto 24px auto!important;
+}
+.section-title p{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-thumbnail{
+    width: 500px!important;
+    height: 550px!important;
+    border: none!important;
+    background-color: transparent!important;
+}
+.col{
+    background-color: HSL(35, 62%, 63%)!important;
 }
 
 
